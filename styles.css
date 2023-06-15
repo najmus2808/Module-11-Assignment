@@ -6,13 +6,18 @@
   --font-size: 16px;
 }
 
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Apply CSS styling */
 body {
   font-family: Arial, sans-serif;
   font-size: var(--font-size);
   color: var(--secondary-color);
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -68,10 +73,6 @@ nav a {
 
 nav a:hover {
   color: red;
-}
-
-nav a:active {
-  color: green;
 }
 
 img {
